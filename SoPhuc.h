@@ -18,7 +18,9 @@ public:
     }
     void xuat()
     {
-        cout << thuc << " + " << ao << "i" << endl;
+        char a='+';
+        if(ao<0) a='-';
+        cout << thuc << " "<<a<<" " <<abs(ao) << "i" << endl;
     }
     void Tong(SoPhuc sp2)
     {
